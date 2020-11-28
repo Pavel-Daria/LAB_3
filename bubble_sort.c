@@ -7,9 +7,7 @@ int main()
 {
   int num[size];
   int  next_num;
-
   srand(time(NULL));
-
   for (int i = 0; i < size; i++) 
   {
     num[i] = rand() % 100;
