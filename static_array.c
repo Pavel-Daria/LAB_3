@@ -11,9 +11,7 @@ int mediana(int a[]);
 int main(void)
 {
   int a[size];
-
   srand(time(NULL));
-
   for (int i = 0; i < size; i++)
   {
     a[i] = rand() % 100;
